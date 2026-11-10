@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "TradeWatch",
+    "slug": "tradewatch",
+    "scheme": "tradewatch",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#040814",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.tradewatch.app"
+    },
+    "android": {
+      "package": "com.tradewatch.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#040814",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 160,
+          "resizeMode": "contain",
+          "backgroundColor": "#040814"
+        }
+      ],
+      "expo-font"
+    ]
+  }
+}
